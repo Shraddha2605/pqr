@@ -1,0 +1,34 @@
+Ek he vpc ke andar puri duniya ke sare regions aapas mai privately communicate kr sakte hai.
+peering pn nhi krav lagat.
+jevha vpc alag asel tevha ch peering honr 
+
+Google cloud ke andar joe vpc hota hai vo global hota hai
+Aur subnet regional service hote hai
+
+VPC     : Global Service
+Subnet  : Regional Service
+
+Communicate with Private IP
+
+
+2 types
+Auto Mode : auto mode vpc networks create subnets in each region automatically
+Custome Mode
+
+In Auto mode we can not communicate with two vcp(due to same network)
+
+Offers Internal Load Balancing
+
+
+peering : Private ip through communicate ho sakta hai. internet ki zaroorat nahi padegi
+
+vpc network do not support multicast or broadcast addresses within the network
+
+multicast : specific group ko message forward krna hai
+
+
+broadcast : uss network mai judo huye sabhi logo ko message forward krna hai 
+
+
+
+https://blog.awsfundamentals.com/aws-ecs-beginner-guide
